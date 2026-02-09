@@ -9,12 +9,13 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        long long a,b;
-        cin >> a >> b;
+        long long n,w;
+        cin >> n >> w;
 
-        if((a+b) % 3 == 0)cout << "YES" << "\n";
-        else cout << "NO" << "\n";
+        long long fences = ceil(n/w);
+        long long ans = n - fences;
 
+        cout << ans << "\n";
     }
 
     return 0;

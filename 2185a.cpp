@@ -9,16 +9,14 @@ int main() {
     int t;
     cin >> t;
     while (t--) {
-        long long x,y;
-        cin >> y >> x;
+        int n;
+        cin >> n;
 
-        long long k = max(y,x);
-        long long k2 = k*k;
-
-        if(k%2 == 0){
-            
+        // long long ans = 0;
+        for(int i = 1;i <= n;i++){
+            cout << i << " ";
         }
-
+        cout << "\n";
     }
 
     return 0;
